@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Robo</title>
+        <link rel="stylesheet" href="./main.js">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body class="m-auto text-center">
+  
+        <div class="border border-purple m-4" 
+             contenteditable
+             oninput="setText(event)"
+             >Seu texto aqui</div>
+        <button 
+          onclick="speak()" 
+          class="p-4 bg-purple-200 rounded shadow">Falar</button>
+        <button 
+          onclick="stop()" 
+          class="p-4 bg-purple-700 text-white rounded shadow">Parar</button>
+       
+      </body>
+</html>
+
+
+
